@@ -5,7 +5,7 @@ on:
   schedule:
     # 每周四 UTC 周四 17:15 运行一次（北京时间周五 01:15）
     # 该时间点放在 Epic 周免刷新之后，避免过早触发。
-    - cron: '15 17 * * 4'
+    - cron: '15 17 * * *'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
